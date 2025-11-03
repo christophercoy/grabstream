@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-YouTube Audio Downloader
+Grabstream - YouTube Audio Downloader
 A command-line tool to extract high-quality audio from YouTube videos and save as MP3.
 """
 
