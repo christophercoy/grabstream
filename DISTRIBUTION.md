@@ -5,24 +5,24 @@
 1. **Download the executable** from you
 2. **Make it executable** (if needed):
    ```bash
-   chmod +x youtube-audio-downloader
+   chmod +x grabstream
    ```
 
 3. **Use it directly**:
    ```bash
-   ./youtube-audio-downloader "https://youtu.be/VIDEO_ID" "output_filename.mp3"
+   ./grabstream "https://youtu.be/VIDEO_ID" "output_filename.mp3"
    ```
 
 ### **Examples:**
 ```bash
 # Basic usage
-./youtube-audio-downloader "https://www.youtube.com/watch?v=dQw4w9WgXcQ" "my_song.mp3"
+./grabstream "https://www.youtube.com/watch?v=dQw4w9WgXcQ" "my_song.mp3"
 
 # With custom bitrate
-./youtube-audio-downloader "https://youtu.be/dQw4w9WgXcQ" "audio_file.mp3" --bitrate 256
+./grabstream "https://youtu.be/dQw4w9WgXcQ" "audio_file.mp3" --bitrate 256
 
 # Help
-./youtube-audio-downloader --help
+./grabstream --help
 ```
 
 ## 📋 System Requirements for Users
@@ -40,9 +40,9 @@ I've set up automated builds that create executables for all platforms:
 1. **Push your code to GitHub**
 2. **Create a release tag**: `git tag v1.0.0 && git push origin v1.0.0`
 3. **GitHub will automatically build**:
-   - `youtube-audio-downloader.exe` (Windows)
-   - `youtube-audio-downloader` (macOS)
-   - `youtube-audio-downloader` (Linux)
+   - `grabstream.exe` (Windows)
+   - `grabstream` (macOS)
+   - `grabstream` (Linux)
 
 ### **Option 2: Manual Windows Build**
 If you have access to a Windows machine:
@@ -53,7 +53,7 @@ If you have access to a Windows machine:
    ```cmd
    pip install -r requirements.txt
    pip install pyinstaller
-   pyinstaller --onefile --name youtube-audio-downloader.exe youtube_audio_downloader.py
+   pyinstaller --onefile --name grabstream.exe grabstream.py
    ```
 
 ### **Option 3: Linux Build**
@@ -61,7 +61,7 @@ On a Linux machine:
 ```bash
 pip install -r requirements.txt
 pip install pyinstaller
-pyinstaller --onefile --name youtube-audio-downloader youtube_audio_downloader.py
+pyinstaller --onefile --name grabstream grabstream.py
 ```
 
 ## ⚠️ Important Notes
@@ -79,7 +79,7 @@ pyinstaller --onefile --name youtube-audio-downloader youtube_audio_downloader.p
 
 ## 🎯 Quick Distribution Checklist
 
-- ✅ Executable created (`dist/youtube-audio-downloader`)
+- ✅ Executable created (`dist/grabstream`)
 - ✅ Tested and working
 - ✅ Documentation provided
 - ✅ Platform requirements specified
