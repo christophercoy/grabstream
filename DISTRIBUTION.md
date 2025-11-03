@@ -1,16 +1,4 @@
-# YouTube Audio Downloader - Distribution Guide
-
-## 🎉 Standalone Executable Created!
-
-Your YouTube audio downloader is now available as a **standalone executable** that others can use without installing Python or any dependencies.
-
-## 📦 What You Have
-
-- **Executable File**: `dist/youtube-audio-downloader` (8.1 MB)
-- **Platform**: macOS (ARM64/Apple Silicon)
-- **Dependencies**: All bundled (Python, yt-dlp, ffmpeg libraries)
-
-## 🚀 How Others Can Use It
+# Grabstream - YouTube Audio Downloader - Distribution Guide
 
 ### **For macOS Users (ARM64/Apple Silicon):**
 
@@ -76,20 +64,6 @@ pip install pyinstaller
 pyinstaller --onefile --name youtube-audio-downloader youtube_audio_downloader.py
 ```
 
-## 📤 Distribution Options
-
-### **Option 1: Direct File Sharing**
-- Share the `dist/youtube-audio-downloader` file directly
-- Recipients just need to make it executable and run it
-
-### **Option 2: GitHub Release**
-- Upload to GitHub as a release asset
-- Users can download from the releases page
-
-### **Option 3: Cloud Storage**
-- Upload to Google Drive, Dropbox, etc.
-- Share the download link
-
 ## ⚠️ Important Notes
 
 1. **Platform Specific**: This executable only works on macOS ARM64 (Apple Silicon)
@@ -111,4 +85,4 @@ pyinstaller --onefile --name youtube-audio-downloader youtube_audio_downloader.p
 - ✅ Platform requirements specified
 - ✅ Usage examples included
 
-**Your standalone YouTube audio downloader is ready for distribution!**
+**Your audio downloader is ready for distribution!**
